@@ -7,3 +7,6 @@ Telegram bot for file sharing.
  Send bot message /get_file x    (where x is the name of the file)
  
  Right now bot can work only with python files.
+
+
+For normal work you need python and aiogram.
