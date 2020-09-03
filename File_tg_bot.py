@@ -8,7 +8,6 @@ logging.error("An error has happened!")
 
 
 from aiogram import Bot, Dispatcher, executor, types
-from aiogram.utils.callback_data import CallbackData
 logging.basicConfig(level=logging.INFO)
 from aiogram import types
 from settings import TOKEN_FTG_BOT,ID_ADMIN
@@ -17,9 +16,6 @@ dp = Dispatcher(bot)
 
 id_admin = ID_ADMIN # мой айди
 
-
-import os 
-posts_query = CallbackData('vote', 'action')
  
 #Получаем основной файл
 @dp.message_handler(commands=['get_file'])
